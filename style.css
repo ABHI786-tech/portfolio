@@ -1,0 +1,105 @@
+body{
+background-color: rgb(8, 8, 8);
+color: white;
+}
+li{
+    padding: 5px 21px;
+
+}
+.navbar-nav{
+    position:fixed ;
+    right: 5%;
+}
+.home, .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 125px 0;
+    padding: 15px;
+
+}
+.homeContent, .Content {
+    margin: 0 2rem;
+}
+.homeContent h3{
+    font-size: 34px;
+    font-weight: 800;
+}
+.homeContent h1, h1{
+    font-size: 46px;
+    font-weight: 800;
+}
+span{
+    color: aqua;
+}
+.btn{
+    padding: 2px 6px;
+    border-radius: 9px;
+    width: 9rem;
+    font-weight: 700;
+    border: none;
+}
+.container3{
+    overflow: hidden;
+    padding: 2%;
+}
+ 
+.container3 .card{
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+ /* .cardData .card{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+} */
+
+.cardImg{
+    width: 100%;
+transition: 1s ease;
+
+}
+.cardImg:hover{
+    transform: scale(1.3);
+}
+
+.contact h2{
+ margin:4% 0 ;
+ font-size: 42px;
+ font-weight: 800;
+}
+.contact form{
+    max-width: 65%;
+    margin:4%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.contact form .input_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.contact form .input_box input,
+ #textArea{
+    width: 100%;
+    padding: 16px;
+   font-size: 12px;
+   background-color: rgb(49, 49, 49);
+   border: none;
+   margin: 6px;
+   border-radius: 12px;
+} 
+

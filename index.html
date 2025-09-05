@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navigation bar  -->
+    <div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark border-bottom border-body " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PORTFOLIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <!-- main content  -->
+    <div class="container-lg ">
+        <section class="home" id="home">
+            <div class="homeContent">
+                <h3><span>Hello</span> It's Me</h3>
+                <h1>Abhinash Gupta</h1>
+                <h3>And I'm a <span>Fronted Developer</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi atque. Saepe dolores
+                    officia dolorum fugit nemo reprehenderit explicabo dicta commodi quae? Molestiae, hic. Tempora atque
+                    expedita</p>
+                <button type="button" class="btn btn-info">Download CV</button>
+            </div>
+            <div class="image">
+                <img src="../z bootsstrap/images/profile2.ico" alt="">
+            </div>
+        </section>
+    </div>
+
+    <!-- about section  -->
+    <div class="container-lg" id="about">
+        <section class="about">
+            <div class="aboutImg">
+                <img src="/z bootsstrap/images/image1.ico" alt="">
+            </div>
+            <div class="Content">
+                <h1>About <span> us</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illo consequuntur doloribus odio
+                    blanditiis ut odit fugiat vero enim deserunt nihil perspiciatis laudantium, sed autem tenetur. Odio,
+                    mollitia quaerat deserunt in enim laborum magni!</p>
+                <button type="button" class="btn btn-info">More Info</button>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+    <!-- portfolio section  -->
+    <div class="container3" id="portfolio">
+
+        <div class="row row-cols-1 row-cols-md-4 g-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/images.jpeg" class="cardImg" alt="...">
+                    <div class="cardData">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="images/profile2.ico" class="cardImg" alt="...">
+                    <div class="cardData">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark d-flex justify-content-center">
+                    <img src="images/image1.ico" class="cardImg" alt="...">
+                    <div class="cardData ">
+                        <h5 class="card-title d-flex justify-content-center">Card title</h5>
+                        <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark h-100">
+                    <img src="/images/download.jpeg" class="cardImg" alt="...">
+                    <div class="cardData">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- contact us pages  -->
+    <section class="contact" id="contact-us">
+        <div class="container-lg">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input_box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email address">
+                </div>
+                    <div class="input_box">
+                <input type="phone" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+                
+                <textarea name="" id="textArea" cols="30" rows="10" placeholder="Your message"></textarea>
+                <input type="submit" value="Send Message" class="btn btn-info">
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
