@@ -225,10 +225,17 @@ footer{
         overflow-x: hidden;
     }
 
-    #home,
-    #about {
+    #home {
         flex-direction: column;
         text-align: center;
+    }
+    #about{
+        text-align: center;
+        flex-direction: column-reverse;
+
+    }
+    .Content{
+        margin-bottom: 50px;
     }
 
     .navbar-nav {
