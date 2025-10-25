@@ -129,15 +129,22 @@ h1 {
     align-items: center;
     opacity: 0;
     /* hidden by default */
-    transition: opacity 0.4s ease;
+    
     padding: 20px;
     text-align: center;
 }
+.cardOverlay{
+transition: opacity 0.4s ease-in;
+}
 
-.cardOverlay:hover .cardData {
+.cardOverlay:hover .cardData{
     opacity: 1;
     /* show text on hover */
+    transition: opacity 0.9s ease-in;
 }
+/* .cardData{
+} */
+
 
 
 /* form section  */
@@ -244,6 +251,12 @@ footer{
         display: flex  ;
         flex-direction: column-reverse;
     }
+    
+}
+@media (max-width: 768px) {
+     .cardData {
+        opacity: 1;
+    }
 }
 
 
@@ -275,7 +288,7 @@ html {
 
 
 
-.homeContent .image img{
+#homeImage, .aboutImg{
     animation:floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
