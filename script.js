@@ -70,7 +70,7 @@ ScrollReveal().reveal('.homeContent p, .Content', { origin: 'right' });
 
 
 const multi = new Typed('.multi-text', {
-    strings: ['Frontend Developer', 'Web Developer', 'Blogger'],
+    strings: [ 'Web Developer','Frontend Developer', 'Backend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
