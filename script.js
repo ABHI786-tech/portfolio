@@ -30,9 +30,7 @@ window.onscroll = () => {
 
 navbarLinks.forEach(link => {
   link.addEventListener('click', () => {
-    // pehle sabhi links se class hata do
     navbarLinks.forEach(l => l.classList.remove('active-link'));
-    // jis link par click hua usme class add karo
     link.classList.add('active-link');
   });
 });
@@ -40,7 +38,6 @@ navbarLinks.forEach(link => {
 
 
 
-    // close the menu when a link is clicked (for mobile view)
     let navLinks = document.querySelectorAll('.nav-link');
     let navbarCollapse = document.querySelector('.navbar-collapse');
 
